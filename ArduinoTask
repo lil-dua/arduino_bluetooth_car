@@ -1,44 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T14:24:28.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="b5ixCmG69phkfjLIeRET" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-03T14:29:08.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.62" etag="GQMeTqVlv9Vwm84m-Hxp" version="20.6.0" type="github">
   <diagram id="sWw9RHyKBLOWPbRfp8Ab" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6NOTIdMY0-HtSKQqJGTK-2" value="Setup" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="560" width="120" height="60" as="geometry" />
+        <mxCell id="PxZdc_flg45OvolaWVSH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="6NOTIdMY0-HtSKQqJGTK-5" target="PxZdc_flg45OvolaWVSH-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6NOTIdMY0-HtSKQqJGTK-4" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="580" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="PxZdc_flg45OvolaWVSH-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="6NOTIdMY0-HtSKQqJGTK-5" target="PxZdc_flg45OvolaWVSH-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6NOTIdMY0-HtSKQqJGTK-5" value="Arduino Car" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="PxZdc_flg45OvolaWVSH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=2;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="6NOTIdMY0-HtSKQqJGTK-5" target="PxZdc_flg45OvolaWVSH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NOTIdMY0-HtSKQqJGTK-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;background-color: rgb(230, 230, 230);&quot;&gt;Arduino Car&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="320" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PxZdc_flg45OvolaWVSH-3" value="Init" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;swimlaneFillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="170" y="270" width="420" height="110" as="geometry" />
+          <mxGeometry x="80" y="270" width="150" height="280" as="geometry" />
         </mxCell>
         <mxCell id="PxZdc_flg45OvolaWVSH-4" value="Library" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="PxZdc_flg45OvolaWVSH-3">
           <mxGeometry x="33" y="37" width="78" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PxZdc_flg45OvolaWVSH-5" value="Define" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="PxZdc_flg45OvolaWVSH-3">
-          <mxGeometry x="120" y="37" width="78" height="50" as="geometry" />
+          <mxGeometry x="33" y="100" width="78" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PxZdc_flg45OvolaWVSH-6" value="Object" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="PxZdc_flg45OvolaWVSH-3">
-          <mxGeometry x="210" y="37" width="78" height="50" as="geometry" />
+          <mxGeometry x="33" y="160" width="78" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PxZdc_flg45OvolaWVSH-7" value="Variable" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="PxZdc_flg45OvolaWVSH-3">
-          <mxGeometry x="300" y="37" width="78" height="50" as="geometry" />
+          <mxGeometry x="33" y="220" width="78" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PxZdc_flg45OvolaWVSH-9" value="Setup" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;swimlaneFillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="200" y="420" width="360" height="110" as="geometry" />
+          <mxGeometry x="250" y="270" width="170" height="280" as="geometry" />
         </mxCell>
         <mxCell id="PxZdc_flg45OvolaWVSH-11" value="HC-SR04&lt;br&gt;pin mode" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="PxZdc_flg45OvolaWVSH-9">
           <mxGeometry x="47" y="37" width="78" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PxZdc_flg45OvolaWVSH-12" value="Servo" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="PxZdc_flg45OvolaWVSH-9">
-          <mxGeometry x="137" y="37" width="78" height="50" as="geometry" />
+          <mxGeometry x="47" y="100" width="78" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PxZdc_flg45OvolaWVSH-13" value="Motor&lt;br&gt;Speed" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="PxZdc_flg45OvolaWVSH-9">
-          <mxGeometry x="227" y="37" width="78" height="50" as="geometry" />
+          <mxGeometry x="47" y="160" width="78" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PxZdc_flg45OvolaWVSH-16" value="Loop" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;swimlaneFillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="340" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PxZdc_flg45OvolaWVSH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;fontSize=14;fontColor=#000000;" edge="1" parent="PxZdc_flg45OvolaWVSH-16" source="PxZdc_flg45OvolaWVSH-17" target="PxZdc_flg45OvolaWVSH-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PxZdc_flg45OvolaWVSH-17" value="Obstacle" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="PxZdc_flg45OvolaWVSH-16">
+          <mxGeometry x="47" y="37" width="78" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PxZdc_flg45OvolaWVSH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;fontSize=14;fontColor=#000000;" edge="1" parent="PxZdc_flg45OvolaWVSH-16" source="PxZdc_flg45OvolaWVSH-18" target="PxZdc_flg45OvolaWVSH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PxZdc_flg45OvolaWVSH-18" value="Bluetoothcontrol" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="PxZdc_flg45OvolaWVSH-16">
+          <mxGeometry x="160" y="37" width="143" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PxZdc_flg45OvolaWVSH-24" value="Ultrasonic" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="PxZdc_flg45OvolaWVSH-16">
+          <mxGeometry x="47" y="115" width="78" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PxZdc_flg45OvolaWVSH-26" value="Movement" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="PxZdc_flg45OvolaWVSH-16">
+          <mxGeometry x="160" y="120" width="143" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
